@@ -2,8 +2,8 @@ import os
 from openpyxl import load_workbook
 from PIL import Image
 
-input_file = "raw_data/Book1.xlsx"
-output_folder = "images"
+input_file = "raw_data/CANDLES .17.01.23.xlsx"
+output_folder = "candles_images"
 
 # Create the output folder if it doesn't exist
 if not os.path.exists(output_folder):

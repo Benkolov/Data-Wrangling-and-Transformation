@@ -1,5 +1,8 @@
 import pandas as pd
-from pipeline import Pipeline, AddGroupColumn, DataAggregation
+
+from sorce.add_group_column import AddGroupColumn
+from sorce.data_aggregation import DataAggregation
+from sorce.pipeline import Pipeline
 
 
 def main():
